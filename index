@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        h1 {
+            color: pink;
+            font-size: 3em;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* Ensure exactly 5 columns */
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .buy-now {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title-container img {
+            height: 1.6em; /* Matches the height of the text */
+            margin-left: 10px; /* Space between the text and the image */
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Silly Store</h1>
+        <img src="images/silly-star.jpg" alt="Silly Star">
+    </div>
+    <div class="gallery">
+        <!-- Products will go here if needed -->
+    </div>
+</body>
+</html>
